@@ -1,0 +1,136 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.5eb040c7)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 363,
+            "type": "VEC3",
+            "max": [
+                2.1280910968780519,
+                6.284806251525879,
+                1.3809000253677369
+            ],
+            "min": [
+                -2.1280910968780519,
+                -0.004773855209350586,
+                -1.3809001445770264
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 2046,
+            "type": "SCALAR",
+            "max": [
+                362
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 12540,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 4356,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4356,
+            "byteLength": 8184,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "2256_Avocado.fbm\\2256_Avocado_d.tga"
+        },
+        {
+            "uri": "2256_Avocado.fbm\\2256_Avocado_n.tga"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Avocado_M",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "baseColorFactor": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.9292893409729004
+            },
+            "normalTexture": {
+                "index": 1
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Avocado",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 1,
+                    "attributes": {
+                        "POSITION": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Avocado",
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        },
+        {
+            "source": 1,
+            "sampler": 1
+        }
+    ],
+    "scene": 0
+}
